@@ -27,7 +27,7 @@ class LinkedList:
     def delete(self, value):
         cur = self.head
 
-        # Special case of deleting the head
+        # Special case of d eleting the head
 
         if cur.value == value:  # Are we deleting the head?
             self.head = self.head.next

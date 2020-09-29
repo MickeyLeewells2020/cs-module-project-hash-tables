@@ -207,8 +207,7 @@ class HashTable:
         # for item in old_data:
         #     while item:
         #         self.put(item.key, item.value)
-        #         item = item.next
-
+        #     
 
 if __name__ == "__main__":
     ht = HashTable(8)
